@@ -1,0 +1,25 @@
+{
+  "name": "koa-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jitendra Kumar <contactjittu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.0.1",
+    "koa-helmet": "^5.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
